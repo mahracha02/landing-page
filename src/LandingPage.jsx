@@ -6,7 +6,7 @@ const LandingPage = () => {
     <div className="container-fluid px-3 py-5" style={{ backgroundColor: "#FDF2E6", overflowX: "hidden" }}>
       {/* Header Section */}
       <div className="text-center">
-        <img src="photos/Reloji.png" className="img-fluid w-50" alt="Reloji" />
+        <img src="photos/Reloji.png" className="img-fluid w-50" alt="Reloji" style={{ marginTop: "-5rem" }}/>
         <img src="photos/photo1.png" className="img-fluid w-100" alt="Montre Redmi" style={{ marginTop: "-5rem" }} />
         
         <h1
@@ -210,7 +210,7 @@ const LandingPage = () => {
           <h5
             className="mt-3 fw-semibold fst-italic"
             style={{
-              fontSize: "50px",
+              fontSize: "2.5rem",
               fontFamily: "Inter, sans-serif",
               marginBottom: "100px"
             }}
@@ -247,7 +247,7 @@ const LandingPage = () => {
       </div>
 
       <div className="row mt-5">
-        <div className="col-6">
+        <div className="col-5">
           <img
             src="photos/pic7.png"
             className="img-fluid w-100 "
@@ -255,13 +255,14 @@ const LandingPage = () => {
             alt="Watches"
           />
         </div>
-        <div className="col-6 ">
+        <div className="col-7 ">
           <h5
               className="mt-3 fw-semibold fst-italic"
               style={{
-                fontSize: "50px",
+                fontSize: "2.5rem",
                 fontFamily: "Inter, sans-serif",
-                marginBottom: "100px"
+                marginBottom: "100px",
+                marginRight: "2rem",
               }}
             >
               Surveillance du taux d'oxygène dans le sang
@@ -284,23 +285,15 @@ const LandingPage = () => {
 
       <div class="row mt-5">
         <div class="col-6">
-          <h5
-            className="mt-3 fw-semibold fst-italic"
-            style={{
-              fontSize: "30px",
-              fontFamily: "Inter, sans-serif",
-              marginBottom: "100px",
-              color: "#FF3131"
-            }}
-          >
-            Ne manquez pas cette opportunité ! Offrez-vous la montre connectée qui révolutionnera votre quotidien. 
+          <h5 class="mt-3 fw-semibold fst-italic text-danger" style={{fontsize: "30px"}}>
+            Ne manquez pas cette opportunité ! Offrez-vous la montre connectée qui révolutionnera votre quotidien.
             <br /><br />
-
             Cliquez ci-dessous pour commander maintenant à un prix exclusif !!
-          </h5>
+          </h5>   
+
           <img
             src="photos/prix.png"
-            className="img-fluid w-100 "
+            className="img-fluid w-100 mt-2 px-1"
             style={{marginTop: "-100px", marginLeft: "-20px", height: "200px"}}
             alt="Watches"
           />
@@ -311,13 +304,13 @@ const LandingPage = () => {
           </div>
         </div>
         <div class="col-6 d-flex flex-column align-items-center">
-          <h4 class="text-center" style={{ fontFamily: 'Inter', fontWeight: 500, fontSize: '50px', marginLeft: '150px' }}>
+          <h4 class="text-center fw-semibold" style={{ fontFamily: 'Inter', fontSize: '40px' }}>
             "Écran LCD 2"
           </h4>
           <img
             src="photos/pic8.png"
             class="img-fluid"
-            style={{ marginTop: "10px", height: "500px" }}
+            style={{ marginTop: "10px", height: "20rem" }}
             alt="Battery"
           />
         </div>
@@ -336,7 +329,7 @@ const LandingPage = () => {
         <div class="col-12">
             <img
               src="photos/pic9.png"
-              class="img-fluid rounded-5"
+              class="img-fluid rounded-5 w-100"
               
               alt="Battery"
             />
@@ -378,14 +371,8 @@ const LandingPage = () => {
             </p>
             <img
               src="photos/prix.png"
-              className="img-fluid mt-5"
-              style={{
-                marginTop: "-100px",
-                marginLeft: "-20px",
-                maxHeight: "200px",
-                width: "100%",
-                objectFit: "contain"
-              }}
+              className="img-fluid w-100 mt-2 px-1"
+              style={{marginTop: "-100px", marginLeft: "-20px", height: "200px"}}
               alt="Watches"
             />
 
@@ -480,8 +467,8 @@ const LandingPage = () => {
         </div>
         <div class="col-12 col-md-8 mx-auto mt-5">
           <h1 class="card-title text-center mb-4">Veuillez remplir le formulaire :</h1>
-          <div class="card mx-auto mt-5" style={{backgroundcolor: "#F4BB7B", maxwidth: "600px", padding: "20px", borderradius: "15px"}}>
-            <div class="card-body">
+          <div class="card mx-auto mt-5 rounded-5" style={{ maxwidth: "600px", padding: "20px"}}>
+            <div class="card-body " style={{backgroundcolor: "#F4BB7B"}}>
               <form>
                 <div class="row mb-3">
                   <label for="nom" class="col-3 col-form-label">Nom</label>
@@ -542,7 +529,7 @@ const LandingPage = () => {
             
           </div>
           <div class="col-4">
-            <span class="fw-bold fs-1 " style={{marginLeft:"1.7em", color: "#000000"}}>39,99€</span>
+            <span class="fw-bold fs-1 " style={{marginLeft:"1.2em", color: "#000000"}}>39,99€</span>
             <div className="d-flex justify-content-center justify-content-md-start mt-5">
               <button className="btn btn-danger btn-lg fs-5 fw-medium rounded-5 px-4 ">
                 Commander
@@ -618,12 +605,12 @@ const LandingPage = () => {
           </div>
         </div> 
 
-        <div class="card" style={{width: "100%", backgroundcolor: "#F4BB7B", margintop: "-1em"}}>
-          <div class="card-body p-2">
+        <div class="card " style={{width: "100%", margintop: "-1em"}}>
+          <div class="card-body p-2 " style={{backgroundColor: "#F4BB7B"}}>
             <div class="row p-4">
               <div class="col-12">
                 <div class="row">
-                  <div class="col-12 col-lg-8">
+                  <div class="col-12 col-lg-8" >
                     <h1 class="card-title text-center mb-4">Veuillez remplir le formulaire :</h1>
                     <div class="row">
                       <div class="col-12 col-md-6">
@@ -649,8 +636,8 @@ const LandingPage = () => {
                         </div>
                       </div>
                     </div>
-                    <div class="d-flex justify-content-center mt-4">
-                      <button type="submit" class="btn btn-danger btn-lg w-75 w-md-50 w-lg-25 fw-bold fs-3">Commander maintenant</button>
+                    <div class="d-flex justify-content-center mt-5">
+                      <button type="submit" class="btn btn-danger btn-lg w-75 w-md-50 w-lg-25 fw-bold fs-3 ">Commander maintenant</button>
                     </div>
                   </div>
 
@@ -663,7 +650,7 @@ const LandingPage = () => {
                     <img
                       src="photos/safe-secure-checkout.webp"
                       class="img-fluid w-100 "
-                      style={{ marginTop: "-2.5em" }}
+                      style={{ marginTop: "-3.7rem" }}
                       alt="Secure Checkout"
                     />
                   </div>
@@ -675,7 +662,7 @@ const LandingPage = () => {
       </div>
 
 
-      <footer class="text-dark text-center py-3 mt-auto" style={{ bottom: "0", width: "100%"}}>
+      <footer class="text-dark text-center py-3 mt-5" style={{ bottom: "0", width: "100%"}}>
         <p class="mb-0">© 2025 Copyright: <span class="fw-bold">Reloji</span></p>
       </footer>
 
