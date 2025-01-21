@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mahracha02/landing-page/static/css/main.e106a6f8.css",
+    "main.js": "/mahracha02/landing-page/static/js/main.fc151556.js",
+    "static/js/871.c69b6726.chunk.js": "/mahracha02/landing-page/static/js/871.c69b6726.chunk.js",
+    "index.html": "/mahracha02/landing-page/index.html",
+    "main.e106a6f8.css.map": "/mahracha02/landing-page/static/css/main.e106a6f8.css.map",
+    "main.fc151556.js.map": "/mahracha02/landing-page/static/js/main.fc151556.js.map",
+    "871.c69b6726.chunk.js.map": "/mahracha02/landing-page/static/js/871.c69b6726.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e106a6f8.css",
+    "static/js/main.fc151556.js"
+  ]
+}
