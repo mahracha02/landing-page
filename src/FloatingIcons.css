@@ -1,0 +1,52 @@
+/* Positionnement des cercles */
+.circle {
+  position: fixed;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* transparence à 50% */
+  color: white;
+  font-size: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+.circle:hover {
+  transform: scale(1.1);
+}
+
+/* Styles pour le cercle WhatsApp */
+.whatsapp {
+  bottom: 80px;
+  background-color: #25D366; /* Couleur de fond WhatsApp */
+}
+
+.whatsapp a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Icône WhatsApp */
+.whatsapp .fa-whatsapp {
+  font-size: 40px;
+}
+
+/* Styles pour le cercle Scroll-Up */
+.scroll-up {
+  bottom: 20px;
+  background-color: #333;
+}
+
+.scroll-up .fa-arrow-up {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.scroll-up:hover {
+  background-color: #555;
+}

@@ -1,14 +1,18 @@
 import React from "react";
-
+import FakeCounter from "./Counter";
+import FloatingButtons from "./FloatingButtons";
 
 const LandingPage = () => {
   return (
-    <div className="container-fluid px-3 py-5" style={{ backgroundColor: "#FDF2E6", overflowX: "hidden" }}>
+    <div className="container-fluid px-3 py-5" style={{ backgroundColor: "#FDF2E6", overflowX: "hidden" }} id="accueil">
+      <FakeCounter variant="header"/>
       {/* Header Section */}
       <div className="text-center">
         <img src="photos/Reloji.png" className="img-fluid w-50" alt="Reloji" style={{ marginTop: "-5rem" }}/>
         <img src="photos/photo1.png" className="img-fluid w-100" alt="Montre Redmi" style={{ marginTop: "-5rem" }} />
         
+        
+
         <h1
           className="fs-2 fs-md-1 fw-semibold"
           style={{ marginTop: "-5rem",
@@ -21,12 +25,13 @@ const LandingPage = () => {
           className="d-flex flex-column flex-md-row justify-content-center align-items-center"
           
         >
-          <button className="btn btn-danger btn-lg mx-3 mb-3 mb-md-0 fs-5 px-4 rounded-5">
+          <a href="#formulaire-commande" className="btn btn-danger btn-lg mx-3 mb-3 mb-md-0 fs-5 px-4 rounded-5">
             Commander
-          </button>
-          <button className="btn btn-info btn-lg mx-3 mb-3 mb-md-0 text-white fs-5 px-4 rounded-5">
+          </a>
+          <a href="#decouvrir" className="btn btn-info btn-lg mx-3 mb-3 mb-md-0 text-white fs-5 px-4 rounded-5">
             Découvrir
-          </button>
+          </a>
+
         </div>
         <div class="text-center">
           <img
@@ -97,7 +102,7 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div className="container-fluid">
+      <div className="container-fluid" id="decouvrir">
         <div className="row mt-5">
           <div className="col-12 col-md-7">
             <h5
@@ -121,9 +126,11 @@ const LandingPage = () => {
               en extérieur ou en déplacement.
             </p>
             <div className="d-flex justify-content-center justify-content-md-start mt-5">
-              <button className="btn btn-danger btn-lg fs-5 fw-medium rounded-5 px-4">
-                Commander
-              </button>
+            <a href="#formulaire-commande" className="btn btn-danger btn-lg mx-3 mb-3 mb-md-0 fs-5 px-4 rounded-5">
+              Commander
+            </a>
+
+
             </div>
           </div>
 
@@ -184,9 +191,9 @@ const LandingPage = () => {
               Réduction de bruit avec double microphone et appels Bluetooth®
             </h5>
             <div className="d-flex justify-content-center justify-content-md-start mt-5">
-              <button className="btn btn-danger btn-lg fs-5 fw-medium rounded-5 px-4">
+              <a href="#formulaire-commande" className="btn btn-danger btn-lg mx-3 mb-3 mb-md-0 fs-5 px-4 rounded-5">
                 Commander
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -219,9 +226,9 @@ const LandingPage = () => {
           </h5>
           
           <div className="d-flex justify-content-center justify-content-md-start mt-5">
-            <button className="btn btn-danger btn-lg fs-5 fw-medium rounded-5 px-4">
+            <a href="#formulaire-commande" className="btn btn-danger btn-lg mx-3 mb-3 mb-md-0 fs-5 px-4 rounded-5">
               Commander
-            </button>
+            </a>
           </div>
         </div>
         <div class="col-6 d-flex align-items-center">
@@ -268,9 +275,9 @@ const LandingPage = () => {
               Surveillance du taux d'oxygène dans le sang
           </h5>
           <div className="d-flex justify-content-center justify-content-md-start mt-5">
-            <button className="btn btn-danger btn-lg fs-5 fw-medium rounded-5 px-4">
+            <a href="#formulaire-commande" className="btn btn-danger btn-lg mx-3 mb-3 mb-md-0 fs-5 px-4 rounded-5">
               Commander
-            </button>
+            </a>
           </div>   
         </div>
         <div class="text-center">
@@ -298,9 +305,9 @@ const LandingPage = () => {
             alt="Watches"
           />
           <div className="d-flex justify-content-center justify-content-md-start mt-5">
-            <button className="btn btn-danger btn-lg fs-5 fw-medium rounded-5 px-4 ">
+            <a href="#formulaire-commande" className="btn btn-danger btn-lg mx-3 mb-3 mb-md-0 fs-5 px-4 rounded-5">
               Commander
-            </button>
+            </a>
           </div>
         </div>
         <div class="col-6 d-flex flex-column align-items-center">
@@ -377,9 +384,9 @@ const LandingPage = () => {
             />
 
         <div className="d-flex justify-content-center justify-content-md-start mt-5">
-          <button className="btn btn-danger btn-lg fs-5 fw-medium rounded-5 px-4 ">
-            Commander
-          </button>
+            <a href="#formulaire-commande" className="btn btn-danger btn-lg mx-3 mb-3 mb-md-0 fs-5 px-4 rounded-5">
+              Commander
+            </a>
         </div>
         </div>
         <div class="col-7 d-flex flex-column align-items-center">
@@ -424,9 +431,9 @@ const LandingPage = () => {
           />
         
           <div className="d-flex justify-content-center justify-content-md-start mt-5">
-            <button className="btn btn-danger btn-lg fs-5 fw-medium rounded-5 px-4  ">
+            <a href="#formulaire-commande" className="btn btn-danger btn-lg mx-3 mb-3 mb-md-0 fs-5 px-4 rounded-5">
               Commander
-            </button>
+            </a>
           </div>
         </div>
 
@@ -502,9 +509,10 @@ const LandingPage = () => {
                   <span class="fw-bold fs-1" style={{color: "#ff3131"}}>79,98€</span>
                 </div>
 
+                
                 <div class="d-flex justify-content-center">
                   <button type="submit" class="btn btn-danger btn-lg w-75 w-md-50 w-lg-25">
-                    Commander
+                    Commander maintenant
                   </button>
                 </div>
               </form> 
@@ -531,9 +539,9 @@ const LandingPage = () => {
           <div class="col-4">
             <span class="fw-bold fs-1 " style={{marginLeft:"1.2em", color: "#000000"}}>39,99€</span>
             <div className="d-flex justify-content-center justify-content-md-start mt-5">
-              <button className="btn btn-danger btn-lg fs-5 fw-medium rounded-5 px-4 ">
+              <a href="#formulaire-commande" className="btn btn-danger btn-lg mx-3 mb-3 mb-md-0 fs-5 px-4 rounded-5">
                 Commander
-              </button>
+              </a>  
             </div>
           </div>
 
@@ -605,40 +613,46 @@ const LandingPage = () => {
           </div>
         </div> 
 
-        <div class="card " style={{width: "100%", margintop: "-1em"}}>
+        <div class="card " style={{width: "100%", margintop: "-1em"}} id="formulaire-commande">
           <div class="card-body p-2 " style={{backgroundColor: "#F4BB7B"}}>
             <div class="row p-4">
               <div class="col-12">
                 <div class="row">
                   <div class="col-12 col-lg-8" >
                     <h1 class="card-title text-center mb-4">Veuillez remplir le formulaire :</h1>
-                    <div class="row">
-                      <div class="col-12 col-md-6">
-                        <div class="mb-3">
-                          <input type="text" class="form-control" id="nom" placeholder="Votre nom" required />
+                    <form >
+                      <div class="row">
+                        <div class="col-12 col-md-6">
+                          <div class="mb-3">
+                            <input type="text" class="form-control" id="nom" placeholder="Votre nom" required />
+                          </div>
+                          <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Votre email" required />
+                          </div>
+                          <div class="mb-3">
+                            <input type="text" class="form-control" id="adresse" placeholder="Votre adresse" required />
+                          </div>
                         </div>
-                        <div class="mb-3">
-                          <input type="email" class="form-control" id="email" placeholder="Votre email" required />
-                        </div>
-                        <div class="mb-3">
-                          <input type="text" class="form-control" id="adresse" placeholder="Votre adresse" required />
+                        <div class="col-12 col-md-6">
+                          <div class="mb-3">
+                            <input type="text" class="form-control" id="prenom" placeholder="Votre prénom" required />
+                          </div>
+                          <div class="mb-3">
+                            <input type="tel" class="form-control" id="telephone" placeholder="Votre téléphone" required />
+                          </div>
+                          <div class="mb-3">
+                            <input type="text" class="form-control" id="ville" placeholder="Votre ville" required />
+                          </div>
                         </div>
                       </div>
-                      <div class="col-12 col-md-6">
-                        <div class="mb-3">
-                          <input type="text" class="form-control" id="prenom" placeholder="Votre prénom" required />
-                        </div>
-                        <div class="mb-3">
-                          <input type="tel" class="form-control" id="telephone" placeholder="Votre téléphone" required />
-                        </div>
-                        <div class="mb-3">
-                          <input type="text" class="form-control" id="ville" placeholder="Votre ville" required />
-                        </div>
+                      <div class="text-center my-4">
+                        <span class="fw-bold fs-1" style={{color: "#ff3131"}}>39,99€</span>
+                      </div>  
+                      <FakeCounter variant="form" />
+                      <div class="d-flex justify-content-center mt-5">
+                        <button type="submit" class="btn btn-danger btn-lg w-75 w-md-50 w-lg-25 fw-bold fs-3 ">Commander maintenant</button>
                       </div>
-                    </div>
-                    <div class="d-flex justify-content-center mt-5">
-                      <button type="submit" class="btn btn-danger btn-lg w-75 w-md-50 w-lg-25 fw-bold fs-3 ">Commander maintenant</button>
-                    </div>
+                    </form>
                   </div>
 
                   <div class="col-12 col-lg-4 mt-4 mt-lg-0">
@@ -661,11 +675,19 @@ const LandingPage = () => {
         </div>
       </div>
 
+      
 
       <footer class="text-dark text-center py-3 mt-5" style={{ bottom: "0", width: "100%"}}>
-        <p class="mb-0">© 2025 Copyright: <span class="fw-bold">Reloji</span></p>
+        <p class="mb-0">© 2025 Copyright: 
+          <span class="fw-bold">
+            <a class="text-reset fw-bold" href="#accueil">
+              Reloji
+            </a>
+          </span></p>
       </footer>
-
+      
+      {/* circle buttons whatsapp et revenir en haut */}
+      <FloatingButtons />
     </div>
     
   );
