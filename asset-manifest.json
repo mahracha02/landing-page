@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/mahracha02/landing-page/static/css/main.e106a6f8.css",
-    "main.js": "/mahracha02/landing-page/static/js/main.fc151556.js",
+    "main.css": "/mahracha02/landing-page/static/css/main.f67dc8e9.css",
+    "main.js": "/mahracha02/landing-page/static/js/main.05b1179b.js",
     "static/js/871.c69b6726.chunk.js": "/mahracha02/landing-page/static/js/871.c69b6726.chunk.js",
+    "static/media/fa-solid-900.ttf": "/mahracha02/landing-page/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/fa-brands-400.ttf": "/mahracha02/landing-page/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/mahracha02/landing-page/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "/mahracha02/landing-page/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/fa-regular-400.ttf": "/mahracha02/landing-page/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/fa-regular-400.woff2": "/mahracha02/landing-page/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/mahracha02/landing-page/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/mahracha02/landing-page/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/mahracha02/landing-page/index.html",
-    "main.e106a6f8.css.map": "/mahracha02/landing-page/static/css/main.e106a6f8.css.map",
-    "main.fc151556.js.map": "/mahracha02/landing-page/static/js/main.fc151556.js.map",
+    "main.f67dc8e9.css.map": "/mahracha02/landing-page/static/css/main.f67dc8e9.css.map",
+    "main.05b1179b.js.map": "/mahracha02/landing-page/static/js/main.05b1179b.js.map",
     "871.c69b6726.chunk.js.map": "/mahracha02/landing-page/static/js/871.c69b6726.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e106a6f8.css",
-    "static/js/main.fc151556.js"
+    "static/css/main.f67dc8e9.css",
+    "static/js/main.05b1179b.js"
   ]
 }
